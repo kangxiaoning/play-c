@@ -1,0 +1,10 @@
+//
+// Created by 康晓宁 on 2022/2/4.
+//
+
+#ifndef PLAY_C_SRC_POINTER_INCLUDE_POINTER_OPERATIONS_H_
+#define PLAY_C_SRC_POINTER_INCLUDE_POINTER_OPERATIONS_H_
+
+void PointerOperationsExample();
+
+#endif //PLAY_C_SRC_POINTER_INCLUDE_POINTER_OPERATIONS_H_

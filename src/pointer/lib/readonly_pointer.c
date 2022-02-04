@@ -2,18 +2,21 @@
 // Created by 康晓宁 on 2022/2/3.
 //
 
+#include <stdio.h>
+#include "../include/readonly_pointer.h"
+
 // const修饰左边内容，决定谁不能修改
 // 如果const修饰变量，则变量不能修改
 // 如果const修饰指针，则指针不能修改
 void ReadonlyPointerExample() {
   int a = 5;
   int *p = &a;
-  printf("&a: %#x\n", &a);
-  printf(" p: %#x\n", p);
+  printf("&a: %p\n", &a);
+  printf(" p: %ps\n", p);
 
   // 1. int *const
   int *const kStarConstP = &a;
-  printf("kStarConstP: %#x\n", kStarConstP);
+  printf("kStarConstP: %p\n", kStarConstP);
   // 1.1 OK
   *kStarConstP = 2;
   printf("*kStarConstP = 2 : %s\n", (*kStarConstP == 2) ? "ok" : "error");

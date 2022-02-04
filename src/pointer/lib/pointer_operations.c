@@ -2,6 +2,7 @@
 // Created by 康晓宁 on 2022/2/4.
 //
 #include <stdio.h>
+#include "../include/pointer_operations.h"
 
 void PointerOperationsExample() {
   int array[] = {1, 2, 3, 4, 5};

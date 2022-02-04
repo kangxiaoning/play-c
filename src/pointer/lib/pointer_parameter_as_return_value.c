@@ -2,6 +2,9 @@
 // Created by 康晓宁 on 2022/2/4.
 //
 
+#include <stdio.h>
+#include "../include/pointer_parameter_as_return_value.h"
+
 int SumIntArrayV1(int array[], int length) {
   int sum = 0;
   for (int i = 0; i < length; ++i) {

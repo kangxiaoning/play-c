@@ -1,0 +1,10 @@
+//
+// Created by 康晓宁 on 2022/2/4.
+//
+
+#ifndef PLAY_C_SRC_POINTER_INCLUDE_READONLY_POINTER_H_
+#define PLAY_C_SRC_POINTER_INCLUDE_READONLY_POINTER_H_
+
+void ReadonlyPointerExample();
+
+#endif //PLAY_C_SRC_POINTER_INCLUDE_READONLY_POINTER_H_

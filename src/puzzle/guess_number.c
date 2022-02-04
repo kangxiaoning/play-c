@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "guess_number.h"
 
 // The maximum number of attempts is determined by binary search method
 int MaxNumberOfAttempts(int max_number) {
