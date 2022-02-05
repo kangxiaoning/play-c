@@ -9,6 +9,7 @@ include_directories(src/algorithm)
 add_subdirectory(src/algorithm)
 add_subdirectory(src/pointer)
 add_subdirectory(src/puzzle)
+add_subdirectory(src/memory)
 
 add_executable(play_c src/main.c)
 
