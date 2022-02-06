@@ -10,6 +10,8 @@ add_subdirectory(src/algorithm)
 add_subdirectory(src/pointer)
 add_subdirectory(src/puzzle)
 add_subdirectory(src/memory)
+add_subdirectory(src/types)
+add_subdirectory(src/data_structure)
 
 add_executable(play_c src/main.c)
 
