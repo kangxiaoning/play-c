@@ -3,9 +3,9 @@
 //
 #include "linked_list.h"
 
-int main() {
+int main(void) {
   // LinkedList
   LinkedListExample();
-  
+
   return 0;
 }

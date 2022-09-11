@@ -1,0 +1,6 @@
+#ifndef PLAY_C_SRC_PUZZLE_CALCULATOR_H_
+#define PLAY_C_SRC_PUZZLE_CALCULATOR_H_
+
+void Calculator(void);
+
+#endif //PLAY_C_SRC_PUZZLE_CALCULATOR_H_

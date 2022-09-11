@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-#include "../include/pointer_parameter_as_return_value.h"
+#include "pointer_parameter_as_return_value.h"
 
 int SumIntArrayV1(int array[], int length) {
   int sum = 0;

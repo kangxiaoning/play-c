@@ -49,7 +49,7 @@ int IsBigEndianV2() {
   return p[0] == 1;
 }
 
-int main() {
+int main(void) {
 
   // 1. Enum
   EnumExample();

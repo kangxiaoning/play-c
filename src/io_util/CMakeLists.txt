@@ -4,5 +4,5 @@ include_directories(.)
 
 aux_source_directory(. SRC_LIST)
 
-# 生成名为 algorithm 的库文件
-add_library(algorithm STATIC ${SRC_LIST})
+# 生成名为 io_util 的库文件
+add_library(io_util STATIC ${SRC_LIST})

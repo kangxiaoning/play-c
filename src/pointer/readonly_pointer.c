@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-#include "../include/readonly_pointer.h"
+#include "readonly_pointer.h"
 
 // const修饰左边内容，决定谁不能修改
 // 如果const修饰变量，则变量不能修改

@@ -100,7 +100,7 @@ void ReallocateExample() {
   free(array);
 }
 
-int main() {
+int main(void) {
   // malloc example
   MallocExample();
 

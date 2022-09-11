@@ -4,14 +4,18 @@
 
 #include "hanoi.h"
 #include "guess_number.h"
+#include "calculator.h"
 
-int main() {
-  
+int main(void) {
+
   // guess number
   GuessNumber();
 
   // The tower of hanoi
   Move(3, 'A', 'C', 'B');
+
+  // Calculator
+  Calculator();
 
   return 0;
 }
