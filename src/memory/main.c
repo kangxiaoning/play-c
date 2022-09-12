@@ -4,6 +4,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include "../io_util/io_util.h"
+#include <stddef.h>
 
 // malloc example
 void MallocExample() {
@@ -109,6 +111,31 @@ int main(void) {
 
   // reallocate example
   ReallocateExample();
+
+  // Memory alignment
+  // size: 24
+  typedef struct {
+    char a;    // 1
+    char b;    // 1
+    int c;     // 4
+    short d;   // 2
+    double e;  // 8
+  } Align;
+
+  // size: 16
+  typedef struct {
+    char a;    // 1
+    char b;    // 1
+    short d;   // 2
+    int c;     // 4
+    double e;  // 8
+  } OptimizedAlign;
+
+  printf("size of Align: %lu\n", sizeof(Align));
+  PRINT_INT(offsetof(Align, c));
+  printf("size of OptimizedAlign: %lu\n", sizeof(OptimizedAlign));
+  PRINT_INT(offsetof(OptimizedAlign, c));
+  printf("You can use '#pragma pack(2)' global setting.");
 
   return 0;
 }

@@ -9,6 +9,7 @@ add_subdirectory(src/hello)
 add_subdirectory(src/memory)
 add_subdirectory(src/pointer)
 add_subdirectory(src/puzzle)
+add_subdirectory(src/string)
 add_subdirectory(src/types)
 add_subdirectory(src/io_util)
 

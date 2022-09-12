@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include "../io_util/io_util.h"
 #include <stdlib.h>
+#include <ctype.h>
 
 int main(void) {
 
-  double x = 3.0;
-  double y = 4.0;
-
-  typeof(x) a = 5.0;
-  PRINT_DOUBLE(a);
+  PRINT_INT(atoi("1234"));
+  PRINT_INT(atoi("-1234"));
+  PRINT_INT(atoi("    1234hello"));
+  PRINT_INT(atof("0x10"));
 
   return 0;
 }
