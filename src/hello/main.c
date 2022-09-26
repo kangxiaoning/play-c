@@ -1,14 +1,9 @@
 #include <stdio.h>
-#include "../io_util/io_util.h"
-#include <stdlib.h>
-#include <ctype.h>
+#include <limits.h>    // integer limits
+#include <float.h>     // floating-point limits
 
-int main(void) {
-
-  PRINT_INT(atoi("1234"));
-  PRINT_INT(atoi("-1234"));
-  PRINT_INT(atoi("    1234hello"));
-  PRINT_INT(atof("0x10"));
-
+int main(int argc, char **argv) {
+  unsigned long a[1];
+  a[3] = 0x7ffff7b36cebUL;
   return 0;
 }
