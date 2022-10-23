@@ -12,6 +12,7 @@ void Move(int n, char src, char dest, char tmp) {
     return;
   } else if (n == 1) {
     printf("%c --> %c\n", src, dest);
+    fflush(stdout);
   } else {
     Move(n - 1, src, tmp, dest);
     Move(1, src, dest, tmp);

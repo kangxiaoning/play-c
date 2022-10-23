@@ -17,6 +17,7 @@ void Calculator(void) {
   do {
 
     printf("Please input an expression: \n");
+    fflush(stdout);
     scanf("%d %c %d", &left, &operator, &right);
 
     int result;
@@ -39,6 +40,7 @@ void Calculator(void) {
     printf("Result: %d\n", result);
 
     printf("Again? type 'q' for quit: \n");
+    fflush(stdout);
 
     // user press the Enter key('\n') after the scan statement executed, so we need to capture '\n' char first
     getchar();
@@ -46,5 +48,6 @@ void Calculator(void) {
     // next we got the user input
     command = getchar();
     printf("command: %d\n", command);
+    fflush(stdout);
   } while (command != 'q');
 }
