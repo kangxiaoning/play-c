@@ -5,6 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 add_subdirectory(src/algorithm)
 add_subdirectory(src/data_structure)
+add_subdirectory(src/files)
 add_subdirectory(src/hello)
 add_subdirectory(src/memory)
 add_subdirectory(src/pointer)
