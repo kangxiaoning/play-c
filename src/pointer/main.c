@@ -5,7 +5,7 @@
 #include "readonly_pointer.h"
 #include "pointer_operations.h"
 #include "pointer_parameter_as_return_value.h"
-#include "../io_util/io_util.h"
+#include "../include/io_util.h"
 
 int main(void) {
   int a = 1;

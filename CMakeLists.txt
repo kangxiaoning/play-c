@@ -13,10 +13,10 @@ add_subdirectory(src/puzzle)
 add_subdirectory(src/string)
 add_subdirectory(src/time)
 add_subdirectory(src/types)
-add_subdirectory(src/io_util)
+add_subdirectory(src/include)
 
 #target_include_directories(src/algorithm)
-#include_directories(src/io_util)
+#include_directories(src/include)
 
 add_executable(play_c src/main.c)
 

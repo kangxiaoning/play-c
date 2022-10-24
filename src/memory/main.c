@@ -4,7 +4,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "../io_util/io_util.h"
+#include "../include/io_util.h"
 #include <stddef.h>
 
 // malloc example
